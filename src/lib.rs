@@ -38,7 +38,7 @@ impl Default for FileInfo {
             file_size: 0,
             data_size: 0,
             data_offset: 0,
-            format: AudioFormat::Invalid,
+            format: AudioFormat::PCM,
             num_channels: 0,
             sample_rate: 0,
             bits_per_sample: 0
