@@ -1,0 +1,9 @@
+[package]
+name = "ripple"
+version = "0.1.0"
+authors = ["cameronfyfe <cameron.j.fyfe@gmail.com"]
+edition = "2018"
+description = "Wav file decoder/encoder geared toward use in embedded systems. Is no-std."
+license = "MIT/Apache-2.0"
+
+[dependencies]
