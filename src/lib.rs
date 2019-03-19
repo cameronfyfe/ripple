@@ -5,8 +5,7 @@ pub enum AudioFormat {
     PCM,
     IEEEFloat,
     EightBitALaw,
-    EightBitMuLaw,
-    Invalid
+    EightBitMuLaw
 }
 
 
@@ -16,8 +15,7 @@ impl AudioFormat {
             AudioFormat::PCM           => 1,
             AudioFormat::IEEEFloat     => 3,
             AudioFormat::EightBitALaw  => 6,
-            AudioFormat::EightBitMuLaw => 7,
-            AudioFormat::Invalid       => 99
+            AudioFormat::EightBitMuLaw => 7
         }
     }
 }
@@ -52,6 +50,8 @@ impl Default for FileInfo {
 pub fn process_header(header_bytes: &[u8]) -> Result<FileInfo, i32> {
     
     let mut file_info = FileInfo::default();
+
+    // TODO
 
     Ok(file_info)
 }
