@@ -1,6 +1,6 @@
 [package]
 name = "ripple"
-version = "0.1.2"
+version = "0.0.1"
 authors = ["cameronfyfe <cameron.j.fyfe@gmail.com"]
 description = "WIP (not implemented yet). Wav file decoder/encoder geared toward use in embedded systems. Is no-std."
 license = "MIT/Apache-2.0"
